@@ -34,7 +34,7 @@ p {
 
 h1 {
     color: var(--White);
-    font-weight: 400;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -90,7 +90,7 @@ main {
     main {
         border-radius: 32px;
         padding: 2%;
-        margin: 11% 0;
+        margin: 13% 0;
     }
 
     #form {
