@@ -10,6 +10,10 @@ let prevBtn = null;
 thankDiv.style.display = "none";
 
 ratingBtn.addEventListener("click", e => {
+    
+     if(e.target.nodeName !== "BUTTON") {
+        return;
+    }
 
     rate = e.target.textContent;
 
